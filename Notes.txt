@@ -12,3 +12,8 @@ Workflow --> jobs which run on Runner Machines
         1. Github Hosted runners [MacOS,Windows,Linux]
         2. Self Hosted Runners [More Responsiblity, ]
         3. Larger Runners [Hosted by Github with more RAM & CPU]
+
+
+YAML Scripting
+
+DataType: Day1\input.yaml
