@@ -1,0 +1,14 @@
+What is Github Action?
+A tool that lets you automate your software development workflows. It allows to react to some EVENTS and run a workflow in response to that events.
+
+What is Workflow?
+automated process that you can set up in your repository in order  to perform a certain tasks like testing your code, deploying your application, Publishing packages, Sending a Slack message, opening an issue. Workflow can contain one or more jobs and each job can have  multiple steps.
+
+
+Events : Repository Events, External Events, Scheduled, Manual Jobs
+
+Workflow --> jobs which run on Runner Machines 
+        Types of Runners:
+        1. Github Hosted runners [MacOS,Windows,Linux]
+        2. Self Hosted Runners [More Responsiblity, ]
+        3. Larger Runners [Hosted by Github with more RAM & CPU]
