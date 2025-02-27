@@ -1,0 +1,26 @@
+name: Working Directory
+
+on: [push]
+
+jobs:
+  display-wd-info:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Display working directory
+          run: |
+            pwd
+            ls -a
+            echo "$GITHUB_WORKSPACE"
+            echo "$GITHUB_REPOSITORY"
+            echo "$GITHUB_SHA"
+
+  display-wd-info-windows:
+      runs-on: windows-latest
+      steps:
+        - name: Display working directory
+          run: |
+            pwd
+            ls -a
+            echo "$GITHUB_WORKSPACE"
+            echo "$GITHUB_REPOSITORY"
+            echo "$GITHUB_SHA"
